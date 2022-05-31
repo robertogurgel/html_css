@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*
+Em HTML é Id em CSS é # (so pode um elemento)
+Em HTML é class em CSS . é (pode em varios elementos).
+*/
+
+
+body{
+    
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+h1{
+    color: white;
+    
+}
+
+
+h2{
+    color: black;
+    background-color: rgb(255, 247, 0);
+    margin: 0
+    ;
+}
+
+div>p{
+    display:none ;
+}
+
+div:hover >p{
+    display: block;
+    text-align: justify;
+    background-color: rgba(238, 251, 5, 0.652);
+    margin: 0% 4% 0% 4%;
+}
+
+.catalogo{
+    background-color: rgb(253, 253, 254);
+    display: inline-block;
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    margin: 1% 2% 1% 2%;
+ 
+}
+
+div.catalogo:hover{
+
+    background-color: rgba(43, 2, 177, 0.403);
+}
