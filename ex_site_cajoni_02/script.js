@@ -5,7 +5,7 @@ function carregar() {
     //var hora = data.getHours() 
     
     //para testar sem pegar a data automatica do sistema
-    var hora= '13'
+    var hora= '19'
     msg.innerHTML = `Agora são ${hora} horas.`
 
     if (hora>=0 && hora<12) {
